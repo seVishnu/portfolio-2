@@ -1,8 +1,8 @@
 const Footer = () => {
   return (
-    <nav className="py-5 flex justify-center">
-      <h1 className="text-sm font-burtons dark:text-white">
-        Made by Vishnu using Next.js and Tailwind Css
+    <nav className="flex justify-center pb-10">
+      <h1 className="text-xs font-burtons dark:text-white">
+        Made with Next.js and Tailwind Css
       </h1>
     </nav>
   );

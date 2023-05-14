@@ -7,9 +7,6 @@ import {
   AiFillGithub,
 } from "react-icons/ai";
 import Img from "../public/vishnu.jpeg";
-import Design from "../public/design.png";
-import Code from "../public/code.png";
-import Consulting from "../public/consulting.png";
 import Web1 from "../public/web1.png";
 import Web2 from "../public/web2.png";
 import Web3 from "../public/web3.png";
@@ -32,7 +29,7 @@ const Home = () => {
         <section className="min-h-screen">
           <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
           <div className="text-center p-1">
-            <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">
+            <h2 className="text-5xl py-2 text-blue-700 font-medium md:text-6xl">
               Vishnu Sekhar
             </h2>
             <h3 className="text-2xl py-2 md:text-3xl font-semibold dark:text-white">
@@ -63,7 +60,7 @@ const Home = () => {
               <AiFillGithub />
             </a>
           </div>
-          <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-60 h-60 sm:w-80 sm:h-80 my-14 overflow-hidden md:w-96 md:h-96">
+          <div className="relative mx-auto bg-gradient-to-b from-blue-700 rounded-full w-60 h-60 sm:w-80 sm:h-80 my-14 overflow-hidden md:w-96 md:h-96">
             <Image
               src={Img}
               layout="fill"
@@ -74,7 +71,7 @@ const Home = () => {
         </section>
 
         <section>
-          <div className="text-center p-4">
+          <div className="text-center p-2 pb-6">
             <h3 className="text-2xl py-1 font-semibold dark:text-white">
               Services I offer
             </h3>
@@ -83,13 +80,13 @@ const Home = () => {
               experienced developer myself, I understand the intricate
               requirements and challenges that arise during the development With
               my expertise in{" "}
-              <span className="text-teal-500"> React Domain</span>, I can help
+              <span className="text-blue-700"> React Domain</span>, I can help
               you develop intuitive, interactive, and high-performance user
               interfaces for your applications optimized for performance.
               {`Let\u0027s collaborate and leverage your ideas and dreams combined
               with my expertise to create exceptional applications.`}
             </p>
-            <h4 className="py-1 text-teal-600 font-medium">My Tech Stack</h4>
+            <h4 className="py-1 text-blue-700 font-medium">My Tech Stack</h4>
             <ul>
               <li className="font-medium dark:text-white">Javscript</li>
               <li className="font-medium dark:text-white">React</li>
@@ -101,31 +98,9 @@ const Home = () => {
               <li className="font-medium dark:text-white">Docker</li>
             </ul>
           </div>
-
-          {/* <div className="lg:flex gap-10">
-            <div className="text-center shadow-lg p-6 rounded-xl my-10">
-              <div>
-                <Image src={Design} width={100} height={100} alt="image" />
-                <h3 className="text-lg font-medium pt-8 pb-2">
-                  Beautiful Designs
-                </h3>
-                <p className="py-2">
-                  Creating elegant designs suited for your needs.
-                </p>
-                <h4 className="py-4 text-teal-600">My Tech Stack</h4>
-                <p className="text-gray-800 py-1">Javascript</p>
-                <p className="text-gray-800 py-1">React</p>
-                <p className="text-gray-800 py-1">React Native</p>
-                <p className="text-gray-800 py-1">Typescript</p>
-                <p className="text-gray-800 py-1">Redux Toolkit</p>
-                <p className="text-gray-800 py-1">Git</p>
-                <p className="text-gray-800 py-1">Docker</p>
-              </div>
-            </div>
-          </div> */}
         </section>
 
-        <section>
+        <section className="mb-10">
           <div className="text-center p-3">
             <h3 className="text-2xl py-1 font-semibold dark:text-white">
               My Portfolio
@@ -144,66 +119,38 @@ const Home = () => {
               commitment to delivering results that exceed expectations.
             </p>
           </div>
-          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <div className="basis-1/3 flex-1">
-              <Image
-                src={Web1}
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                alt="work"
-              />
+
+          <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+            <div class="p-4 border rounded">
+              <Image src={Web1} alt="Project 1" class="mb-4" />
+              <h3 class="text-lg font-bold">Project 1</h3>
+              <p class="mt-2">Description of Project 1 goes here.</p>
             </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                src={Web2}
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                alt="work"
-              />
+
+            <div class="p-4 border rounded">
+              <Image src={Web2} alt="Project 2" class="mb-4" />
+              <h3 class="text-lg font-bold">Project 2</h3>
+              <p class="mt-2">Description of Project 2 goes here.</p>
             </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                src={Web3}
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                alt="work"
-              />
+            <div class="p-4 border rounded">
+              <Image src={Web2} alt="Project 2" class="mb-4" />
+              <h3 class="text-lg font-bold">Project 2</h3>
+              <p class="mt-2">Description of Project 2 goes here.</p>
             </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                src={Web4}
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                alt="work"
-              />
+            <div class="p-4 border rounded">
+              <Image src={Web2} alt="Project 2" class="mb-4" />
+              <h3 class="text-lg font-bold">Project 2</h3>
+              <p class="mt-2">Description of Project 2 goes here.</p>
             </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                src={Web5}
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                alt="work"
-              />
+            <div class="p-4 border rounded">
+              <Image src={Web2} alt="Project 2" class="mb-4" />
+              <h3 class="text-lg font-bold">Project 2</h3>
+              <p class="mt-2">Description of Project 2 goes here.</p>
             </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                src={Web6}
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                alt="work"
-              />
+            <div class="p-4 border rounded">
+              <Image src={Web2} alt="Project 2" class="mb-4" />
+              <h3 class="text-lg font-bold">Project 2</h3>
+              <p class="mt-2">Description of Project 2 goes here.</p>
             </div>
           </div>
         </section>
