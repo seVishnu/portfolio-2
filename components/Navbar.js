@@ -1,10 +1,10 @@
-import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
+import { BsFillMoonStarsFill } from "react-icons/bs";
 import { MdLightMode } from "react-icons/md";
 
 const Navbar = ({ darkMode, setDarkMode }) => {
   return (
     <nav className="py-10 mb-12 flex justify-between">
-      <h1 className="text-xl font-burtons dark:text-white">Hello!</h1>
+      <h1 className="text-xl  dark:text-white">Hello!</h1>
       <ul className="flex items-center">
         <li>
           {!darkMode ? (

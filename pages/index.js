@@ -3,7 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { FaReact } from "react-icons/fa";
-import Img from "../public/vishnu-v3.jpg";
+// import Img from "../public/vishnu-v3.jpg";
 import dp from "../public/dp.jpeg";
 import Tesla from "../public/tesla-clone.png";
 import Portfolio from "../public/portfolio.png";
@@ -39,8 +39,7 @@ const Home = () => {
               Software Developer with 2 years of experience specializing in Web
               and Mobile application development. With a strong focus on
               front-end technologies, have extensive proficiency in React,
-              JavaScript, React Native, TypeScript, and version control tools
-              like Git.
+              JavaScript, Redux Toolkit, and version control using Git.
             </p>
           </div>
           <div className="text-5xl flex justify-between gap-12 py-3 px-1 text-gray-600">
@@ -76,22 +75,21 @@ const Home = () => {
               Skillsets I offer
             </h3>
             <p className="text-md py-2 leading-8 text-justify text-gray-800 dark:text-white">
-              Welcome to my comprehensive development services. As an
-              experienced developer myself, I understand the intricate
-              requirements and challenges that arise during the development With
-              my expertise in{" "}
+              Welcome to my comprehensive development toolkit. As an experienced
+              developer myself, I understand the intricate requirements and
+              challenges that arise during the development With my expertise in{" "}
               <span className="text-blue-700"> React Domain</span>, I can help
               you develop intuitive, interactive, and high-performance user
               interfaces for your applications optimized for performance.
-              {`Let\u0027s collaborate and leverage your ideas and dreams combined
-              with my expertise to create exceptional applications.`}
+              {/* {`Let\u0027s collaborate and leverage your ideas and dreams combined
+              with my expertise to create exceptional applications.`} */}
             </p>
             <h4 className="py-1 text-blue-700 font-medium text-xl">
               My Tech Stack
             </h4>
             <ul>
-              <li className="font-medium dark:text-white">JavaScript</li>
               <li className="font-medium dark:text-white">React</li>
+              <li className="font-medium dark:text-white">JavaScript</li>
               <li className="font-medium dark:text-white">Next.js</li>
               <li className="font-medium dark:text-white">React Native</li>
               <li className="font-medium dark:text-white">TypeScript</li>
@@ -111,13 +109,8 @@ const Home = () => {
               to work on a wide range of projects, from web applications to
               mobile apps. Each project has allowed me to refine my skills,
               tackle complex challenges, and deliver high-quality solutions.
-            </p>
-            <p className="text-md py-2 leading-relaxed text-justify text-gray-800 dark:text-white">
-              As you explore my portfolio, you will discover a diverse range of
-              projects that highlight my ability to tackle various technical
-              requirements, work effectively in teams, and adapt to evolving
-              industry standards. I approach every project with passion and a
-              commitment to delivering results that exceed expectations.
+              Most importantly, I understand that as a dev you are always
+              learning.
             </p>
           </div>
 
@@ -127,7 +120,7 @@ const Home = () => {
               <h3 className="text-lg font-bold  dark:text-white">
                 Disney+ Hotstar Clone
               </h3>
-              <p className="mt-2  dark:text-white">
+              <p className="mt-2  dark:text-white text-sm">
                 Tech Stack used: React, Styled Components, Redux Toolkit, &
                 Firebase
               </p>
@@ -137,7 +130,7 @@ const Home = () => {
               <h3 className="text-lg font-bold  dark:text-white">
                 Tesla Website Clone
               </h3>
-              <p className="mt-2  dark:text-white">
+              <p className="mt-2  dark:text-white text-sm">
                 Tech Stack used: React, Styled Components, Redux Toolkit,
                 Firebase & Material UI
               </p>
@@ -148,7 +141,7 @@ const Home = () => {
               <h3 className="text-lg font-bold  dark:text-white">
                 Portfolio I
               </h3>
-              <p className="mt-2  dark:text-white">
+              <p className="mt-2  dark:text-white text-sm">
                 Tech Stack used: React, Sass & emailJS
               </p>
             </div>
@@ -157,7 +150,7 @@ const Home = () => {
               <h3 className="text-lg font-bold  dark:text-white">
                 Fork Place Recipe
               </h3>
-              <p className="mt-2  dark:text-white">
+              <p className="mt-2  dark:text-white text-sm">
                 Tech Stack used: React, Styled Components, & Framer Motion
               </p>
             </div>
@@ -166,7 +159,7 @@ const Home = () => {
               <h3 className="text-lg font-bold  dark:text-white">
                 Coding BootCamp Design
               </h3>
-              <p className="mt-2  dark:text-white">
+              <p className="mt-2  dark:text-white text-sm">
                 Tech Stack used: HTML, Vanilla JS & Bootstrap
               </p>
             </div>
