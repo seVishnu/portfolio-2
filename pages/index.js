@@ -4,7 +4,7 @@ import Image from "next/image";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { FaReact } from "react-icons/fa";
 // import Img from "../public/vishnu-v3.jpg";
-import dp from "../public/dp.jpeg";
+import dp from "../public/vishnu.jpeg";
 import Tesla from "../public/tesla-clone.png";
 import Portfolio from "../public/portfolio.png";
 import Disney from "../public/disney-clone.png";
@@ -35,7 +35,7 @@ const Home = () => {
             <h3 className="text-2xl py-2 md:text-3xl font-semibold dark:text-white">
               Software Developer
             </h3>
-            <p className="text-justify text-md py-5 leading-relaxed text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white">
+            <p className="text-justify text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white">
               As a Software Developer specializing in Web application
               development, I bring 2 years of experience to the table. My
               expertise lies in front-end technologies, where I have honed my
@@ -119,14 +119,20 @@ const Home = () => {
 
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 mt-5">
             <div className="p-4 border rounded">
-              <Image src={Disney} alt="disney logo" className="mb-4" />
-              <h3 className="text-lg font-bold  dark:text-white">
-                Disney+ Hotstar Clone
-              </h3>
-              <p className="mt-2  dark:text-white text-sm">
-                Tech Stack used: React, Styled Components, Redux Toolkit, &
-                Firebase
-              </p>
+              <a
+                href="https://disney-plus-hs-clone.vercel.app/"
+                target="blank"
+                rel="noopener noreferrer"
+              >
+                <Image src={Disney} alt="disney logo" className="mb-4" />
+                <h3 className="text-lg font-bold  dark:text-white">
+                  Disney+ Hotstar Clone
+                </h3>
+                <p className="mt-2  dark:text-white text-sm">
+                  Tech Stack used: React, Styled Components, Redux Toolkit, &
+                  Firebase
+                </p>
+              </a>
             </div>
             <div className="p-4 border rounded">
               <Image src={Tesla} alt="tesla logo" className="mb-4" />
