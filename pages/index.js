@@ -36,7 +36,7 @@ const Home = () => {
               Software Developer
             </h3>
             <p className="text-justify text-md py-5 leading-relaxed text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white">
-              As a Software Developer specializing in Web and Mobile application
+              As a Software Developer specializing in Web application
               development, I bring 2 years of experience to the table. My
               expertise lies in front-end technologies, where I have honed my
               skills in React, JavaScript, Redux Toolkit, and version control
