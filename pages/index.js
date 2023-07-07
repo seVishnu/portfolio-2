@@ -80,12 +80,11 @@ const Home = () => {
             <p className="text-md py-2 leading-8 text-justify text-gray-800 dark:text-white">
               Welcome to my comprehensive development toolkit. As an experienced
               developer myself, I understand the intricate requirements and
-              challenges that arise during the development With my expertise in{" "}
-              <span className="text-blue-700"> React Domain</span>, I can help
+              challenges that arise during the development process. With my
+              expertise in the{" "}
+              <span className="text-blue-700">React domain</span>, I can help
               you develop intuitive, interactive, and high-performance user
-              interfaces for your applications optimized for performance.
-              {/* {`Let\u0027s collaborate and leverage your ideas and dreams combined
-              with my expertise to create exceptional applications.`} */}
+              interfaces for your applications, optimized for performance.
             </p>
             <h4 className="py-1 text-blue-700 font-medium text-xl">
               My Tech Stack
